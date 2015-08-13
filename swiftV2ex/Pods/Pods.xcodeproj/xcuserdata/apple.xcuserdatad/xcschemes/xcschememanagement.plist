@@ -9,6 +9,41 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Dollar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PullToRefresher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1F9DB10BAF129ACE8B5FAA9E</key>
+		<key>00BD0FE7E46BFC381D04EB30</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F476BEA6A860C22281DE3B09</key>
+		<key>2CA1E9F5AD8EDC330EB3D948</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54EFEC5306048EB8E0B05F12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A48E9C8723FF84564771860B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B629158E426E47B0C48BE270</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7CF1253330BAE098BEF90F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD74D106FEB3B5B4BC743708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB800BFAA00C4E8343664787</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEEF0669376E6281935F53E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

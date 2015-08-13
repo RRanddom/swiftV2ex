@@ -13,6 +13,11 @@
 		18E26ED91B749EBB0001DCD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E26ED81B749EBB0001DCD9 /* Images.xcassets */; };
 		18E26EDC1B749EBB0001DCD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E26EDA1B749EBB0001DCD9 /* LaunchScreen.xib */; };
 		18E26EE81B749EBB0001DCD9 /* swiftV2exTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E26EE71B749EBB0001DCD9 /* swiftV2exTests.swift */; };
+		18F6F8E71B7880B500AC7AEF /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F8E61B7880B500AC7AEF /* Topic.swift */; };
+		18F6F8EA1B7882C200AC7AEF /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F8E91B7882C200AC7AEF /* Member.swift */; };
+		18F6F8EC1B78834A00AC7AEF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F8EB1B78834A00AC7AEF /* Node.swift */; };
+		18F6F8EE1B788DDB00AC7AEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F8ED1B788DDB00AC7AEF /* User.swift */; };
+		18F6F8F31B789DC100AC7AEF /* V2exClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F8F21B789DC100AC7AEF /* V2exClient.swift */; };
 		883D072A4B831A8D832EE4EE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F271D44450DAABB1239174E0 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,6 +42,11 @@
 		18E26EE11B749EBB0001DCD9 /* swiftV2exTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftV2exTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E26EE61B749EBB0001DCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E26EE71B749EBB0001DCD9 /* swiftV2exTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftV2exTests.swift; sourceTree = "<group>"; };
+		18F6F8E61B7880B500AC7AEF /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Topic.swift; path = Model/Topic.swift; sourceTree = "<group>"; };
+		18F6F8E91B7882C200AC7AEF /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Member.swift; path = Model/Member.swift; sourceTree = "<group>"; };
+		18F6F8EB1B78834A00AC7AEF /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Model/Node.swift; sourceTree = "<group>"; };
+		18F6F8ED1B788DDB00AC7AEF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
+		18F6F8F21B789DC100AC7AEF /* V2exClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = V2exClient.swift; path = Client/V2exClient.swift; sourceTree = "<group>"; };
 		3817FC2BC0F3CDD02DC9594A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D61B2BCAB87BF68A49F699AA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F271D44450DAABB1239174E0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +94,8 @@
 		18E26ECE1B749EBB0001DCD9 /* swiftV2ex */ = {
 			isa = PBXGroup;
 			children = (
+				18F6F8F11B789BF100AC7AEF /* Client */,
+				18F6F8E81B7880BA00AC7AEF /* Model */,
 				18E26ED11B749EBB0001DCD9 /* AppDelegate.swift */,
 				18E26ED31B749EBB0001DCD9 /* ViewController.swift */,
 				18E26ED51B749EBB0001DCD9 /* Main.storyboard */,
@@ -117,6 +129,25 @@
 				18E26EE61B749EBB0001DCD9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F6F8E81B7880BA00AC7AEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F6F8E61B7880B500AC7AEF /* Topic.swift */,
+				18F6F8EB1B78834A00AC7AEF /* Node.swift */,
+				18F6F8E91B7882C200AC7AEF /* Member.swift */,
+				18F6F8ED1B788DDB00AC7AEF /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18F6F8F11B789BF100AC7AEF /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				18F6F8F21B789DC100AC7AEF /* V2exClient.swift */,
+			);
+			name = Client;
 			sourceTree = "<group>";
 		};
 		5A0B50CC095DA6066B5AABD1 /* Pods */ = {
@@ -183,6 +214,7 @@
 		18E26EC41B749EBB0001DCD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = apple.com;
 				TargetAttributes = {
@@ -288,7 +320,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E26ED41B749EBB0001DCD9 /* ViewController.swift in Sources */,
+				18F6F8F31B789DC100AC7AEF /* V2exClient.swift in Sources */,
+				18F6F8EC1B78834A00AC7AEF /* Node.swift in Sources */,
+				18F6F8EE1B788DDB00AC7AEF /* User.swift in Sources */,
+				18F6F8E71B7880B500AC7AEF /* Topic.swift in Sources */,
 				18E26ED21B749EBB0001DCD9 /* AppDelegate.swift in Sources */,
+				18F6F8EA1B7882C200AC7AEF /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

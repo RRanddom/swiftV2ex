@@ -12,3 +12,51 @@
 #define COCOAPODS_VERSION_MINOR_Alamofire 3
 #define COCOAPODS_VERSION_PATCH_Alamofire 0
 
+// AlamofireObjectMapper
+#define COCOAPODS_POD_AVAILABLE_AlamofireObjectMapper
+#define COCOAPODS_VERSION_MAJOR_AlamofireObjectMapper 0
+#define COCOAPODS_VERSION_MINOR_AlamofireObjectMapper 7
+#define COCOAPODS_VERSION_PATCH_AlamofireObjectMapper 0
+
+// Dollar
+#define COCOAPODS_POD_AVAILABLE_Dollar
+#define COCOAPODS_VERSION_MAJOR_Dollar 3
+#define COCOAPODS_VERSION_MINOR_Dollar 0
+#define COCOAPODS_VERSION_PATCH_Dollar 3
+
+// Moya
+#define COCOAPODS_POD_AVAILABLE_Moya
+#define COCOAPODS_VERSION_MAJOR_Moya 2
+#define COCOAPODS_VERSION_MINOR_Moya 0
+#define COCOAPODS_VERSION_PATCH_Moya 2
+
+// Moya/Core
+#define COCOAPODS_POD_AVAILABLE_Moya_Core
+#define COCOAPODS_VERSION_MAJOR_Moya_Core 2
+#define COCOAPODS_VERSION_MINOR_Moya_Core 0
+#define COCOAPODS_VERSION_PATCH_Moya_Core 2
+
+// ObjectMapper
+#define COCOAPODS_POD_AVAILABLE_ObjectMapper
+#define COCOAPODS_VERSION_MAJOR_ObjectMapper 0
+#define COCOAPODS_VERSION_MINOR_ObjectMapper 14
+#define COCOAPODS_VERSION_PATCH_ObjectMapper 0
+
+// PullToRefresher
+#define COCOAPODS_POD_AVAILABLE_PullToRefresher
+#define COCOAPODS_VERSION_MAJOR_PullToRefresher 1
+#define COCOAPODS_VERSION_MINOR_PullToRefresher 0
+#define COCOAPODS_VERSION_PATCH_PullToRefresher 0
+
+// SnapKit
+#define COCOAPODS_POD_AVAILABLE_SnapKit
+#define COCOAPODS_VERSION_MAJOR_SnapKit 0
+#define COCOAPODS_VERSION_MINOR_SnapKit 13
+#define COCOAPODS_VERSION_PATCH_SnapKit 0
+
+// SwiftyJSON
+#define COCOAPODS_POD_AVAILABLE_SwiftyJSON
+#define COCOAPODS_VERSION_MAJOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_MINOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_PATCH_SwiftyJSON 1
+
